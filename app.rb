@@ -16,7 +16,11 @@ post '/newteam' do
 @sf = params[:sf]
 @pf = params[:pf]
 @c = params[:c]
+<<<<<<< HEAD
 #binding.pry
+=======
+binding.pry
+>>>>>>> 00295a1da3f359f0f6904d416fe87031ec07836a
 erb :team
 #binding.pry
 end
